@@ -1,0 +1,488 @@
+body {
+
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eadede;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 40px;
+  background: linear-gradient(to right, #f4f8f3, #efe7dc);
+}
+
+/* Logo */
+.nav-logo img {
+  height: 40px;
+}
+
+/* Center Links */
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.nav-links li {
+  cursor: pointer;
+  color: #1b1b1b;
+}
+
+/* Right Buttons */
+.nav-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.login-btn {
+  padding: 8px 18px;
+  border-radius: 18px;
+  background: transparent;
+  border: 1px solid #1c7c3a;
+  color: #1c7c3a;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  background: green;
+  color: white;
+  transform: translateY(-0.25rem);
+}
+
+.signup-btn {
+  padding: 8px 18px;
+  border-radius: 18px;
+  background: #0f5f2a;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.signup-btn:hover {
+  background: white;
+  color: #000;
+  transform: translateY(-0.25rem);
+}
+
+
+/* Hero.css */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* padding: 10px; */
+  align-items: center;
+  margin: 80px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.hero h1 span {
+  color: #0f6b2f;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* .hero-image1 {
+  position: relative;
+} */
+
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.google-play-button {
+  display: flex;
+}
+
+.google-play {
+  background: linear-gradient(145deg, #4285f4, #0d47a1);
+}
+
+.google-play img {
+  height: 90px;
+}
+
+.app-store {
+  background: linear-gradient(145deg, #000000, #434343);
+}
+
+
+/* AboutUs.css */
+.about-us-section {
+
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #333;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+}
+
+
+
+/* New wrapper for image and content side by side */
+.about-content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: start;
+}
+
+/* Left side - Image styling */
+.about-image {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 60%;
+  min-height: 500px;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, rgba(0, 123, 255, 0.2), rgba(0, 198, 255, 0.2));
+  mix-blend-mode: multiply;
+}
+
+/* Right side - Content Cards */
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-icon {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 15px;
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+  background: linear-gradient(90deg, #333, #555);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  color: #000000;
+  margin: 0;
+  text-align: justify;
+}
+
+.explore-more-btn {
+  margin-top: 25px;
+  background: #000000;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  align-self: start;
+}
+
+.explore-more-btn:hover {
+  background: green;
+  transform: translateY(-0.25rem);
+}
+
+
+.howitworks {
+  background-color: #0a7a14;
+  padding: 80px 60px;
+  color: #fff;
+}
+
+.howitworks-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 60px;
+}
+
+/* Phone section */
+.phone-wrapper {
+  position: relative;
+  width: 300px;
+}
+
+.circle-bg {
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  background-color: rgba(255, 255, 255, 0.12);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.phone-img {
+  position: relative;
+  width: 100%;
+  transform: rotate(-10deg);
+  z-index: 2;
+}
+
+/* Content */
+.content {
+  max-width: 450px;
+}
+
+.content h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.content h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 15px;
+  line-height: 1.6;
+  opacity: 0.9;
+  margin-bottom: 25px;
+}
+
+.browse-btn {
+  background-color: #0b3d0b;
+  color: #fff;
+  border: none;
+  padding: 12px 26px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.browse-btn:hover {
+  background-color: #095709;
+}
+
+/* Arrow */
+.arrow {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.arrow img {
+  width: 40px;
+  height: 40px;
+}
+
+/* Testimonials.css */
+.testimonials {
+  background: #f2fbf4;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #173b1a;
+  margin-bottom: 60px;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.testimonial-card {
+  position: relative;
+  background: #ffffff;
+  width: 300px;
+  padding: 80px 30px 40px;
+  border-radius: 18px;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+  color: #222;
+}
+
+.testimonial-card.active {
+  background: #145c06;
+  color: #ffffff;
+}
+
+.avatar {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-card.active .avatar {
+  background: #145c06;
+}
+
+.testimonial-card.active .avatar {
+  background: #145c06;
+}
+
+.avatar {
+  z-index: 3;
+}
+
+.quote-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  opacity: 0.95;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.quote-img img {
+  width: 100%;
+  height: 100%;
+  display: none;
+  /* hide original file; we'll render via mask for consistent coloring */
+}
+
+/* Render the icon via mask so we can control its color */
+.quote-img::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #145c06;
+  /* green for white cards */
+  -webkit-mask-image: url("/assets/Vector%20(1).png");
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-image: url("/assets/Vector%20(1).png");
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+/* active (dark) card: show white icon */
+.testimonial-card.active .quote-img::before {
+  background-color: #ffffff;
+}
+
+.testimonial-card p {
+  margin-top: 19px;
+  font-size: 15px;
+}
+
+/* Slightly raise the testimonial name heading */
+.testimonial-card h3 {
+  margin-bottom: 65px;
+}
+
+.background {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.background img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
