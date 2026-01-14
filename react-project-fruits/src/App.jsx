@@ -4,9 +4,11 @@ import './App.css';
 import About from "./About";
 import HowItWorks from "./HowItWorks";
 import Testimonies from "./Testimonies";
-import Grow from "./Grow.jsx";
-import Footer from "./Footer";
+import Landing from "./Landing"
+import FAQSection from "./FAQSection";
 
+
+import Footer from "./Footer";
 function App() {
   return (
     <>
@@ -16,7 +18,8 @@ function App() {
       <About />
       <HowItWorks />
       <Testimonies />
-      <Grow />
+      <Landing />
+      <FAQSection />
       <Footer />
     </>
   );

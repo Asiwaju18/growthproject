@@ -7,7 +7,7 @@ const Testimonials = () => {
 
             <div className="testimonial-container">
                 {/* LEFT CARD */}
-                <div className="testimonial-card">
+                <div className="testimonial-card1">
                     <div className="avatar">
                         <img src="/assets/Ellipse 49.png" alt="User" />
                     </div>
@@ -40,7 +40,7 @@ const Testimonials = () => {
                 </div>
 
                 {/* RIGHT CARD */}
-                <div className="testimonial-card">
+                <div className="testimonial-card3">
                     <div className="avatar">
                         <img src="/assets/Ellipse 49.png" alt="User" />
                     </div>

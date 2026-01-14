@@ -25,9 +25,9 @@ const HowItWorks = () => {
                 </div>
 
 
-                <div className="arrow">
+                <button className="arrow">
                     <img src="/assets/Group 20.png" alt="next" />
-                </div>
+                </button>
 
             </div>
         </section>
