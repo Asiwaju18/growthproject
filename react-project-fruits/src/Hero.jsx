@@ -24,9 +24,13 @@ const Hero = () => {
                     </button>
                 </div>
             </div>
-            <div className="hero-image">
-                {/* <img src="/assets/image-Photoroom.png" alt="groceries" className="hero-image1" /> c v nvhh  */}
-                <img src="/assets/image-Photoroom 1.png" alt="groceries" />
+            <div className="hero-images">
+                <div className="hero-image-back">
+                    <img src="/assets/image-Photoroom.png" alt="yyyyyyyyy" />
+                </div>
+                <div className="hero-image">
+                    <img src="/assets/image-Photoroom 1.png" alt="groceries" />
+                </div>
             </div>
         </section>
     );
