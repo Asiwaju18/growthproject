@@ -7,7 +7,6 @@ const Navbar = () => {
                 <img src="/assets/duvic-01 1.png" alt="Duvic Drop" />
             </div>
 
-
             <ul className="nav-links">
                 <li>About us</li>
                 <li>Contact us</li>
