@@ -32,14 +32,7 @@ const Hero = () => {
                 <div className="hero-image">
                     <img src="/assets/image-Photoroom 1.png" alt="groceries" />
                 </div>
-                <div className="hero-images">
-                    <div className="hero-image-back">
-                        <img src="/assets/image-Photoroom.png" alt="yyyyyyyyy" />
-                    </div>
-                    <div className="hero-image">
-                        <img src="/assets/image-Photoroom 1.png" alt="groceries" />
-                    </div>
-                </div>
+            </div>
         </section>
     );
 };
